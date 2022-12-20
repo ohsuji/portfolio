@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+}
+
+header, main, section, aside, article, footer, nav, menu, details, figure {
+	display: block;
+}
+
+body {
+	width: 100vw;
+  height: 100vh;
+  line-height: inherit;
+	color: var(--color-Text1);
+	background-color: var(--colorBg);
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	border: 0;
+	vertical-align: middle;
+	max-width: 100%;
+}
+
+.inner {
+  padding: 60px 0;
+  margin: 0 100px;
+  height: 100vh;
+}
+.inner0 {
+	padding: 60px 0px;
+  margin: 0 100px;
+  height: 100%;
+}

@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+#main .title .title_top .intro_list ul.intro>li {
+  color: var(--color-Accent);
+}
+#main .title .title_top .intro_list ul.intro>li:nth-child(3) {
+  color: var(--color-Text1);
+} 
+#main .title .title_top .intro_list ul.intro li:nth-child(3) h3 {
+  border-bottom: 0.5px solid var(--color-Text1);
+}
+#main .title .title_top .intro_list ul.intro>li:hover h3 {
+  border-bottom: 1px solid rgba(125, 135, 168, 0.45);
+}
+
+.skill_list {
+  display: flex;
+  align-items: center;
+}
+.skill_list li>img {
+  width: 50px;
+  margin: 10px 10px 0 0;
+}
+
+/* contact */
+#main .follow {
+  position: absolute;
+  width: 85%;
+  left: 5%;
+  bottom: 60px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: end;
+  padding-top: 60px;
+  border-top: 2px solid rgba(125, 135, 168, 0.45);
+}
+#main .follow h2 {
+  font-size: 5rem;
+  color: var(--color-Text1);
+}
+#main .follow .contact_list {
+  display: flex;
+}
+#main .follow .contact_list li {
+  margin-left: 15px;
+  border: 2px solid var(--color-Text1);
+  border-radius: 10px;
+  transition: .4s;
+}
+#main .follow .contact_list li:hover {
+  border: 2px solid var(--color-Text1);
+  border-radius: 50px;
+  background: var(--color-Accent);
+} 
+#main .follow .contact_list li img {
+  width: 90px;
+}
+#main .follow {
+  justify-content: flex-end;
+}
