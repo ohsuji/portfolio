@@ -392,7 +392,7 @@
 }
 #main .skill_wrap {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-content: center;
   text-align: center;
 }
@@ -462,7 +462,7 @@
 #main .projects .project_list {
   display: flex;
   width: 100%;
-  margin-top: 5vh;
+  margin-top: 3vh;
 }
 #main .projects .project_list article {
   position: relative;

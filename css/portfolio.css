@@ -1,0 +1,104 @@
+@charset "UTF-8";
+
+.project {
+  background: var(--color-MainBg);
+}
+.project .header {
+
+}
+.project .header h1 {
+  font-size: 2rem;
+  margin-bottom: 80px;
+}
+.project .header h1 span {
+  font-size: 2rm;
+  color: #555;
+
+}
+.project .header h1 p {
+  font-size: 3rem;
+}
+.project .main {
+  display: flex;
+}
+.project .main .main_left {
+  position: relative;
+  display: block;
+  flex: 1;
+}
+.project .main .main_right {
+  
+}
+.project .main a {
+  display: inline-block;
+}
+.project .main .main_img {
+  position: relative;
+  /*! width: 80%; */
+  cursor: pointer;
+  border: 3px solid var(--color-Accent);
+  border-radius: 20px;
+  margin-right: 50px;
+  transition: .6s ease-out;
+  margin-right: 80px;
+}
+.project .main .main_img:hover::before {
+  content: '나이키 공식 홈페이지 이동';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%);
+  font-size: 1.7rem;
+  font-weight: 800;
+  z-index: 2;
+}
+.project .main .main_img:hover::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  background: rgba(0,0,0,0.7);
+  transition: .6s ease-out;
+}
+.project .main .main_img a img {
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.project .main .main_text {
+
+}
+.project .main .main_text h3 {
+  font-size: 1.8rem;
+}
+.project .main .main_text p {
+  font-size: 1.3rem;
+  color: var(--color-Accent);
+  margin-bottom: 10px;
+}
+.project .main .btn_wrap {
+  width: 230px;
+  height: 80px;
+  position: absolute;
+  left: 45%;
+  bottom: -130px;
+  transform: translate(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--color-Accent);
+  border-radius: 20px;
+  text-align: center;
+}
+.project .main .btn_wrap a {
+}
+.project .main .btn_wrap a img {
+  width: 50%;
+}
+
+
