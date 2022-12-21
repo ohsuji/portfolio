@@ -34,7 +34,7 @@
 }
 .project .main .main_img {
   position: relative;
-  /*! width: 80%; */
+  width: 80%;
   cursor: pointer;
   border: 3px solid var(--color-Accent);
   border-radius: 20px;
@@ -85,7 +85,7 @@
   width: 230px;
   height: 80px;
   position: absolute;
-  left: 45%;
+  left: 40%;
   bottom: -130px;
   transform: translate(-50%);
   display: flex;
