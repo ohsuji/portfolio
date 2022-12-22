@@ -43,3 +43,8 @@ img {
   margin: 0 100px;
   height: 100%;
 }
+
+.active {
+	left: 40%;
+	right: -40%;
+}

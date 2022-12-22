@@ -12,7 +12,7 @@
 }
 .project .header h1 span {
   font-size: 2rm;
-  color: #555;
+  color: var(--color-Accent);
 
 }
 .project .header h1 p {
@@ -24,7 +24,8 @@
 .project .main .main_left {
   position: relative;
   display: block;
-  flex: 1;
+  width: 60%;
+  margin-right: 80px;
 }
 .project .main .main_right {
   
@@ -34,71 +35,39 @@
 }
 .project .main .main_img {
   position: relative;
-  width: 80%;
   cursor: pointer;
   border: 3px solid var(--color-Accent);
   border-radius: 20px;
-  margin-right: 50px;
   transition: .6s ease-out;
-  margin-right: 80px;
-}
-.project .main .main_img:hover::before {
-  content: '나이키 공식 홈페이지 이동';
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%);
-  font-size: 1.7rem;
-  font-weight: 800;
-  z-index: 2;
-}
-.project .main .main_img:hover::after {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
   width: 100%;
-  height: 100%;
-  border-radius: 20px;
-  background: rgba(0,0,0,0.7);
-  transition: .6s ease-out;
 }
-.project .main .main_img a img {
+.project .main .main_img img {
   border-radius: 20px;
   padding: 20px;
 }
-
 .project .main .main_text {
-
+  margin-top: 30px;
 }
 .project .main .main_text h3 {
-  font-size: 1.8rem;
-}
-.project .main .main_text p {
   font-size: 1.3rem;
-  color: var(--color-Accent);
   margin-bottom: 10px;
+  color: var(--color-Accent);
 }
-.project .main .btn_wrap {
-  width: 230px;
-  height: 80px;
-  position: absolute;
-  left: 40%;
-  bottom: -130px;
-  transform: translate(-50%);
+.project .main .main_text li {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+  color: var(--color-Text1);
+}
+.project .main .main_text a {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: var(--color-Text1);
+}
+
+.skill_list {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  background: var(--color-Accent);
-  border-radius: 20px;
-  text-align: center;
+  justify-content: space-around;
 }
-.project .main .btn_wrap a {
-}
-.project .main .btn_wrap a img {
-  width: 50%;
-}
+
 
 
