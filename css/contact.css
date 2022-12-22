@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-.main {
+#main {
   height: 100vh;
 }
 #main .title .title_top .intro_list {

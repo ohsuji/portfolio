@@ -1,7 +1,7 @@
 $(".nav_trigger").click(function () {
-  $(".main").toggleClass('on');
+  $(".resume").toggleClass('on');
 });
 
 $(".nav li a").click(function() {
-  $(".main").removeClass('on');
+  $(".resume").removeClass('on');
 })
