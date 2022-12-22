@@ -108,7 +108,7 @@
 }
 
 /* Main */
-#main {
+.main {
   position: absolute;
   top: 0;
   left: 0;
@@ -117,6 +117,11 @@
   margin-left: 80px;
   height: 340vh;
   background-color: var(--color-SubBg);
+  transition: .4s ease-in;
+}
+.on {
+  left: 40%;
+  right: -40%;
 }
 /* Title */
 #stars {

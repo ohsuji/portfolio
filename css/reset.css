@@ -17,6 +17,7 @@ body {
   line-height: inherit;
 	color: var(--color-Text1);
 	background-color: var(--colorBg);
+	overflow-x: hidden;
 }
 
 li {
@@ -44,7 +45,4 @@ img {
   height: 100%;
 }
 
-.active {
-	left: 40%;
-	right: -40%;
-}
+
