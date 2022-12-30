@@ -8,7 +8,7 @@
 }
 .project .header h1 {
   font-size: 2rem;
-  margin-bottom: 80px;
+  margin-bottom: 60px;
   padding-left: 3%;
 }
 .project .header h1 span {
@@ -29,14 +29,13 @@
   margin-right: 80px;
 }
 .project .main .main_right {
-  
+  padding: 4%;
 }
 
 .border {
   padding: 4% 6%;
   margin: 0 auto;
 }
-
 .screen {
   border: 3px solid var(--color-Accent);
   border-radius: 20px;
@@ -86,9 +85,7 @@
   border-radius: 20px;
   padding: 20px;
 }
-.project .main .main_text {
-  margin-top: 30px;
-}
+
 .project .main .main_text h3 {
   font-size: 1.3rem;
   margin-bottom: 10px;
@@ -107,4 +104,20 @@
 .skill_list {
   display: flex;
   justify-content: space-around;
+}
+
+.project .main_right ul {
+  margin-bottom: 35px;
+}
+
+.project .main_right .url {
+  border: 1px solid var(--color-Accent);
+  padding: 20px;
+  border-radius: 10px;
+}
+.project .main_right .url li {
+  margin-bottom: 20px;
+}
+.project .main_right .url li.look a {
+  color: lightcoral;
 }
