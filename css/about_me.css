@@ -28,9 +28,42 @@
   font-size: 3rem;
   font-weight: 700;
 }
+#main .about_me .personality {
+  width: 60%;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+#main .about_me .personality ul {
+
+}
+#main .about_me .personality ul li.mbti {
+  position: relative;
+}
+#main .about_me .personality ul li.mbti span {
+  font-size: 3rem;
+  font-weight: 900;
+  color: var(--color-Accent);
+}
+#main .about_me .personality ul li.mbti span::after {
+  content: "";
+  position: absolute;
+  width: 300px;
+  height: 400px;
+  top: 0;
+  right: 0;
+  background: url(../img/isfp.png) center center / cover;
+}
+
+#main .about_me .personality ul li.hobby {
+
+}
+#main .about_me .personality ul li {
+
+}
+
 #main .follow {
   border-top: none;
-  width: 110%;
+  width: 100%;
   justify-content: end;
   padding-top: 0;
 }
